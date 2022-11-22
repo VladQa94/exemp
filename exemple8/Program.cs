@@ -6,7 +6,7 @@ a = -3 b = 9 -> да
 */
 int userNumberA = new int();
 int userNumberB = new int();
-
+Console.WriteLine("Введите два числа: ");
 userNumberA = Convert.ToInt32(Console.ReadLine());
 userNumberB = Convert.ToInt32(Console.ReadLine());
 
@@ -14,9 +14,9 @@ int result = userNumberA * userNumberA;
 
 if (userNumberB == result)
 {
-    Console.WriteLine("да");
+    Console.WriteLine("Является ли второе число квадратом первого? ответ: Да");
 }
 else
 {
-    Console.WriteLine("нет");
+    Console.WriteLine("Является ли второе число квадратом первого? ответ: Нет");
 }
